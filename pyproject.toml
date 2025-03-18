@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BaleCore"
+version = "1.0.1"
+description = "Simplify Bale messenger bot development with this comprehensive library."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Sasaninai", email = "mohamad.html.70@gmail.com"},
+  {name = "Hassan Vahidi", email = "mrvahidi.ir@gmail.com"}
+]
+keywords = ["bale", "messenger", "bot", "tapi", "client", "ble", "botfather"]
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = ["aiohttp==3.11.14"]
+
+[project.urls]
+"Homepage" = "https://github.com/Rahanesh/BaleCore"
+"Download" = "https://github.com/Rahanesh/BaleCore/releases/latest"
+"Documentation" = "https://balecore.ir"
+"Tracker" = "https://github.com/Rahanesh/BaleCore/issues"
+"Community" = "https://ble.ir/balecore"
